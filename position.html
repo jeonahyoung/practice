@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포지션</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1{
+            width: 100px;
+            height: 100px;
+        }
+
+        .box{
+            background-color: aquamarine;
+            height: 300px;   /*부모에 300px설정하고 position-absolute해서 위치 조정하기*/
+        }
+
+        .bg1{
+            background-color: bisque; 
+            /*position:relative;
+            left:800px;*/
+            position: absolute;
+            left: 50%;
+         } 
+        .bg2{
+            background-color: yellowgreen;
+            /*position: relative;
+            left: 400px;*/
+            position: absolute;
+            left: 30%;
+        }
+        .bg3{
+            background-color: violet;
+            /*position: relative;
+            left: 850px;
+            bottom: 150px;*/
+            position: absolute;
+            left: 52%;
+            top: 25px;
+        }
+        .bg4{
+            background-color: skyblue;
+        }
+        .bg5{
+            background-color: red;
+        }
+        .bg6{
+            background-color: goldenrod;
+        }
+        .box-2{
+            background-color: rebeccapurple;
+        }
+        /*absolut 사라진게 아니라 붕떠서 얹어져있음*/
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1 bg1">box1</div>
+        <div class="box1 bg2">box2</div>
+        <div class="box1 bg3">box3</div>
+    </div>
+    <div class="box-2">
+        <div class="box1 bg4"></div>
+        <div class="box1 bg5"></div>
+        <div class="box1 bg6"></div>
+    </div>
+</body>
+</html>

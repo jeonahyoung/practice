@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포지션-1(연습용)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*.all-box{
+            width: 500px;
+            height: 500px;
+            background-color: palevioletred;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+        }
+
+        .yellow{
+            background-color: yellow;
+            position: relative;
+            top: -200px;
+            z-index: 1;
+       
+        }
+
+        .pink{
+            background-color: pink;
+            position: relative;
+            top: 50px;
+            left : 50px; 
+            z-index: 2;
+        
+        }
+
+        .blue{
+            background-color: skyblue;
+            position: relative;
+            left:100px;
+            z-index: 3;
+        }*/
+        
+        /*.box{
+            width: 100px;
+            height: 100px;
+        }
+        .skyblue{
+            background-color: skyblue;
+        }
+        .aqua{
+            background-color:aqua;}
+        .purple{
+            background-color:purple;
+            position: relative;
+            top: 20px;
+        }
+        .red{
+            background-color: red;
+            position: relative;
+            top: 20px;
+        }
+        .brown{
+            background-color: brown;
+        }
+        .three-box{
+            width: 250px;
+            height: 300px;
+            position: relative;
+            left: 100px;
+        }*/
+
+       .box{width: 300px;
+            height: 300px
+        }
+        .box_1{
+            width: 100px;
+            height: 100px;
+        }
+        .box_2{
+            width: 100px;
+            height: 100px;
+        }
+        .red{
+            background-color: red;
+        }
+        .skyblue{
+            background-color: skyblue;
+            position: relative;
+            left: 150px;
+            top: -150px;
+        }
+        .navy{
+            background-color: navy;
+            position: relative;
+            left: 300px;
+            top: -300px;
+        }
+        .box_1{
+            background-color: yellow;
+            position: absolute;
+            top:200px;
+        }
+        .box_2{
+            background-color: yellow;
+            position: absolute;
+            left: 200px;
+        }
+        .all-box{
+            position: relative;
+            left: 250px;
+            top: 150px;
+        }
+        /*relative는 내 자리는 지키는 값이라서 부모가 되는 영역에 적용하고,
+          absolute는 붕떠서 둘어가있는것이라서 ralative보다는 유동적, 자식영역에 적용*/
+
+        .img{
+            width: 100%;
+        }
+
+
+        .content-box{
+            position: relative;
+        }
+        .content-img{
+            position: absolute;
+        }
+        .content-text{
+            width: 700px;
+            height: 577px;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .bg-img{
+            width: 320px;    
+        }
+        .content-text:hover{
+            background-color: rgba(231,211,22,0.3);
+        }
+
+    </style>
+</head>
+<body>
+   
+
+    <div class="bg-img">
+        <div class="content-box">
+            <div class="content-img">
+                <img src="flower.jpg" alt="">
+            </div>
+            <div class="content-text">
+                <h1>자몽망고튤립</h1>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+<!--
+    <div class="all-box">
+        <div class="box red">
+            <div class="box_1"></div>
+            <div class="box_2"></div>
+        </div>
+        <div class="box skyblue">
+            <div class="box_1"></div>
+            <div class="box_2"></div>
+        </div>
+        <div class="box navy">
+            <div class="box_1"></div>
+            <div class="box_2"></div>
+        </div>
+    </div>
+-->
+
+
+
+ 
+    <!--<div class="all-box">
+            <div class="box pink">
+                <h1>ONE</h1>
+            </div>
+            <div class="box blue">
+                <h1>TWO</h1>
+            </div>
+            <div class="box yellow">
+                <h1>THREE</h1>        
+            </div>
+    </div>-->
+
+    <!--<div class="box skyblue"></div>
+    <div class="three-box aqua">
+        <div class="box purple"></div>
+        <div class="box red"></div>
+    </div>
+    <div class="box brown"></div>
+    </div>-->
+
+    
+</body>
+</html>
